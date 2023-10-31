@@ -27,24 +27,25 @@ Before running the tests, ensure you have the following installed:
    npx hardhat compile
    npx hardhat test
 
-4. Test Cases
+## Test Cases
    This test suite includes the following test cases:
 
    i. Basic ERC20 Functions
    ii. Verify the correctness of the token's name, symbol, and decimals.
    iii. Test token transfers and balance updates.
    iv. Test approvals and token transfers using transferFrom.
-   Vulnerability Testing:
+
+## Vulnerability Testing:
    v. Check if self-transfers are allowed.
    vi. Attempt unauthorized minting by addresses not in the minter list.
    vii. Try to make unauthorized changes to the governance address.
    viii. Test unauthorized additions/removals of minters by non-governance addresses.
 
-5. Contributing
+## Contributing
    Feel free to contribute to this test suite by opening issues, suggesting improvements, or submitting pull requests.
 
-6. License
+## License
    This test suite is provided under the MIT License.
 
-7. Disclaimer
+## Disclaimer
    This test suite is for educational and informational purposes only. It is not a comprehensive security audit, and vulnerabilities may still exist. Always conduct a thorough code review and testing before deploying smart contracts on a production network.
